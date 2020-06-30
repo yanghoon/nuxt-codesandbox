@@ -3,7 +3,7 @@ export default {
    ** Rendering mode
    ** Doc: https://nuxtjs.org/api/configuration-mode
    */
-  mode: "universal",
+  mode: "spa",
 
   /*
    ** Headers of the page
@@ -27,13 +27,13 @@ export default {
    ** Global CSS
    ** Doc: https://nuxtjs.org/api/configuration-css
    */
-  css: [],
+  css: ["~/assets/scss/style.scss"],
 
   /*
    ** Plugins to load before mounting the App
    ** Doc: https://nuxtjs.org/guide/plugins
    */
-  plugins: [],
+  plugins: ["~/plugins/coreui"],
 
   /*
    ** Nuxt.js modules
@@ -41,16 +41,16 @@ export default {
    */
   modules: [
     // Doc: https://http.nuxtjs.org
-    "@nuxt/http",
+    "@nuxtjs/axios",
     // TODO: Remove it if you want to eject from codeSandbox
     "./codesandbox"
   ],
 
   /*
-   ** HTTP module configuration
+   ** Router module configuration
    */
-  http: {
-    // See https://http.nuxtjs.org/api/#options
+  router: {
+    linkActiveClass: "open active"
   },
 
   /*

@@ -12,8 +12,17 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
-    "@nuxt/http": "^0.4.0",
-    "nuxt": "^2.12.2",
-    "reqlim": "^0.0.0"
+    "@nuxtjs/axios": "^5.11.0",
+    "nuxt": "^2.13.0",
+    "reqlim": "^0.0.0",
+    "//": "https://github.com/coreui/coreui-free-vue-admin-template/blob/0d2b619677ba170898ec19ae9ad0a99db22b5d51/package.json",
+    "@coreui/coreui": "^3.2.0",
+    "@coreui/icons": "^1.0.1",
+    "@coreui/utils": "^1.2.4",
+    "@coreui/vue": "^3.0.5",
+    "@coreui/vue-chartjs": "^1.0.4",
+    "@coreui/coreui-pro": "^3.1.1",
+    "node-sass": "~4.13.1",
+    "sass-loader": "~8.0.2"
   }
 }
