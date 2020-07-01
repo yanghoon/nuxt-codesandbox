@@ -9,6 +9,7 @@
 
 <script>
 export default {
+  layout: 'coreui',
   asyncData() {
     return {
       name: (process.server ? 'server' : 'client')
